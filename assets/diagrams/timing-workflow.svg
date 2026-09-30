@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="430" viewBox="0 0 1100 430" role="img" aria-labelledby="title desc">
+  <title id="title">Timing workflow</title>
+  <desc id="desc">Hill Climb timing workflow from participant to classification.</desc>
+  <defs>
+    <style>.bg{fill:#fff}.box{fill:#f8fafc;stroke:#cbd5e1;stroke-width:2}.text{fill:#0f172a;font-family:Inter,Segoe UI,Arial,sans-serif}.muted{fill:#64748b}.arrow{stroke:#22c55e;stroke-width:4;fill:none;marker-end:url(#a)}@media(prefers-color-scheme:dark){.bg{fill:#0b1220}.box{fill:#111827;stroke:#334155}.text{fill:#e5e7eb}.muted{fill:#94a3b8}}</style>
+    <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#22c55e"/></marker>
+  </defs>
+  <rect class="bg" width="1100" height="430" rx="24"/>
+  <text class="text" x="48" y="58" font-size="30" font-weight="900">Hill Climb Timing Workflow</text>
+  <text class="muted" x="48" y="88" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Core flow: final time = finish - start + penalty</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <rect class="box" x="60" y="150" width="150" height="86" rx="18"/><text class="text" x="92" y="185" font-size="18" font-weight="800">Race No.</text><text class="muted" x="92" y="212" font-size="14">Participant</text>
+    <rect class="box" x="250" y="150" width="150" height="86" rx="18"/><text class="text" x="285" y="185" font-size="18" font-weight="800">Start</text><text class="muted" x="285" y="212" font-size="14">Checkpoint</text>
+    <rect class="box" x="440" y="150" width="150" height="86" rx="18"/><text class="text" x="476" y="185" font-size="18" font-weight="800">Finish</text><text class="muted" x="476" y="212" font-size="14">Checkpoint</text>
+    <rect class="box" x="630" y="150" width="150" height="86" rx="18"/><text class="text" x="654" y="185" font-size="18" font-weight="800">Validation</text><text class="muted" x="654" y="212" font-size="14">API rules</text>
+    <rect class="box" x="820" y="150" width="150" height="86" rx="18"/><text class="text" x="845" y="185" font-size="18" font-weight="800">Results</text><text class="muted" x="845" y="212" font-size="14">Classification</text>
+    <path class="arrow" d="M210 193 L250 193"/><path class="arrow" d="M400 193 L440 193"/><path class="arrow" d="M590 193 L630 193"/><path class="arrow" d="M780 193 L820 193"/>
+    <rect x="315" y="300" width="470" height="62" rx="18" fill="#dcfce7" stroke="#86efac"/>
+    <text x="374" y="338" fill="#14532d" font-size="22" font-weight="900">finish - start + penalty</text>
+  </g>
+</svg>

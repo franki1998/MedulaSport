@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="680" viewBox="0 0 1100 680" role="img" aria-labelledby="title desc">
+  <title id="title">System architecture overview</title>
+  <desc id="desc">Conceptual architecture showing public web, Android PDA, FastAPI backend, PostgreSQL, local storage and thermal printer.</desc>
+  <defs>
+    <style>
+      .bg{fill:#ffffff}.card{fill:#f8fafc;stroke:#cbd5e1;stroke-width:2}.dark{fill:#0f172a}.muted{fill:#64748b}.text{fill:#0f172a;font-family:Inter,Segoe UI,Arial,sans-serif}.small{font-size:16px}.label{font-size:20px;font-weight:800}.tiny{font-size:13px}.arrow{stroke:#0ea5e9;stroke-width:4;fill:none;marker-end:url(#arrow)}.wire{stroke:#94a3b8;stroke-width:3;fill:none;marker-end:url(#arrow2)}
+      @media (prefers-color-scheme: dark){.bg{fill:#0b1220}.card{fill:#111827;stroke:#334155}.text{fill:#e5e7eb}.muted{fill:#94a3b8}.dark{fill:#38bdf8}}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#0ea5e9"/></marker>
+    <marker id="arrow2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#94a3b8"/></marker>
+  </defs>
+  <rect class="bg" width="1100" height="680" rx="26"/>
+  <text class="text" x="50" y="58" font-size="30" font-weight="900">Conceptual System Overview</text>
+  <text class="muted" x="50" y="88" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Public documentation diagram. No internal hosts or configuration details are included.</text>
+
+  <rect class="card" x="84" y="140" width="280" height="112" rx="20"/>
+  <text class="text label" x="124" y="182">Public Web</text>
+  <text class="muted small" x="124" y="212">HTML / CSS / JavaScript</text>
+
+  <rect class="card" x="84" y="382" width="280" height="112" rx="20"/>
+  <text class="text label" x="124" y="424">Android / PDA</text>
+  <text class="muted small" x="124" y="454">Kotlin / Jetpack Compose</text>
+
+  <rect class="card" x="438" y="260" width="260" height="124" rx="20"/>
+  <text class="text label" x="486" y="306">FastAPI</text>
+  <text class="muted small" x="486" y="336">REST backend</text>
+
+  <rect class="card" x="790" y="260" width="230" height="124" rx="20"/>
+  <text class="text label" x="838" y="306">PostgreSQL</text>
+  <text class="muted small" x="838" y="336">Persistence</text>
+
+  <rect class="card" x="438" y="520" width="260" height="90" rx="20"/>
+  <text class="text label" x="486" y="558">Local JSON</text>
+  <text class="muted small" x="486" y="586">Pending records</text>
+
+  <rect class="card" x="790" y="520" width="230" height="90" rx="20"/>
+  <text class="text label" x="824" y="558">Thermal Printer</text>
+  <text class="muted small" x="824" y="586">Bluetooth / ESC-POS</text>
+
+  <path class="arrow" d="M364 196 C414 196 404 322 438 322"/>
+  <path class="arrow" d="M364 438 C414 438 404 322 438 322"/>
+  <path class="arrow" d="M698 322 L790 322"/>
+  <path class="wire" d="M224 494 C224 570 350 565 438 565"/>
+  <path class="wire" d="M364 456 C520 486 650 560 790 565"/>
+  <text class="muted tiny" x="392" y="180">REST</text>
+  <text class="muted tiny" x="384" y="428">REST</text>
+  <text class="muted tiny" x="728" y="306">SQL</text>
+  <text class="muted tiny" x="318" y="556">device storage</text>
+  <text class="muted tiny" x="654" y="520">paper fallback</text>
+</svg>

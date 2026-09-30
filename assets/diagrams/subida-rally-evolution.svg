@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="540" viewBox="0 0 1100 540" role="img" aria-labelledby="title desc">
+  <title id="title">Evolution from Subida to Rally</title>
+  <desc id="desc">Comparison between Hill Climb and Rally domains.</desc>
+  <defs>
+    <style>.bg{fill:#fff}.panel{fill:#f8fafc;stroke:#cbd5e1;stroke-width:2}.text{fill:#0f172a;font-family:Inter,Segoe UI,Arial,sans-serif}.muted{fill:#64748b}.chip{fill:#e0f2fe;stroke:#7dd3fc}.chip2{fill:#dcfce7;stroke:#86efac}.arrow{stroke:#0ea5e9;stroke-width:5;fill:none;marker-end:url(#a)}@media(prefers-color-scheme:dark){.bg{fill:#0b1220}.panel{fill:#111827;stroke:#334155}.text{fill:#e5e7eb}.muted{fill:#94a3b8}.chip{fill:#082f49;stroke:#0369a1}.chip2{fill:#052e16;stroke:#16a34a}}</style>
+    <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#0ea5e9"/></marker>
+  </defs>
+  <rect class="bg" width="1100" height="540" rx="24"/>
+  <text class="text" x="50" y="58" font-size="30" font-weight="900">From Hill Climb / Subida To Rally</text>
+  <text class="muted" x="50" y="88" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">A focused timing workflow evolved into a broader race-management domain.</text>
+  <rect class="panel" x="70" y="135" width="390" height="315" rx="24"/>
+  <text class="text" x="110" y="182" font-size="24" font-weight="900">Initial Domain</text>
+  <text class="muted" x="110" y="212" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">Hill Climb / Subida</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="800">
+    <rect class="chip" x="110" y="248" width="118" height="36" rx="18"/><text class="text" x="132" y="272">Sessions</text>
+    <rect class="chip" x="242" y="248" width="92" height="36" rx="18"/><text class="text" x="267" y="272">Start</text>
+    <rect class="chip" x="110" y="304" width="94" height="36" rx="18"/><text class="text" x="131" y="328">Finish</text>
+    <rect class="chip" x="218" y="304" width="116" height="36" rx="18"/><text class="text" x="239" y="328">Penalty</text>
+    <rect class="chip" x="110" y="360" width="112" height="36" rx="18"/><text class="text" x="132" y="384">Status</text>
+    <rect class="chip" x="236" y="360" width="164" height="36" rx="18"/><text class="text" x="258" y="384">Best-time rank</text>
+  </g>
+  <path class="arrow" d="M490 295 L608 295"/>
+  <rect class="panel" x="640" y="135" width="390" height="315" rx="24"/>
+  <text class="text" x="680" y="182" font-size="24" font-weight="900">Extended Domain</text>
+  <text class="muted" x="680" y="212" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">Rally</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="800">
+    <rect class="chip2" x="680" y="248" width="112" height="36" rx="18"/><text class="text" x="702" y="272">Co-driver</text>
+    <rect class="chip2" x="806" y="248" width="96" height="36" rx="18"/><text class="text" x="829" y="272">Stages</text>
+    <rect class="chip2" x="680" y="304" width="84" height="36" rx="18"/><text class="text" x="707" y="328">Runs</text>
+    <rect class="chip2" x="778" y="304" width="116" height="36" rx="18"/><text class="text" x="799" y="328">Itinerary</text>
+    <rect class="chip2" x="680" y="360" width="132" height="36" rx="18"/><text class="text" x="699" y="384">Checkpoints</text>
+    <rect class="chip2" x="826" y="360" width="152" height="36" rx="18"/><text class="text" x="847" y="384">Accumulated</text>
+  </g>
+</svg>

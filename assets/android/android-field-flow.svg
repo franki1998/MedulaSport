@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Android PDA field workflow mockup</title>
+  <desc id="desc">Anonymised Android timing app mockup with fictitious data.</desc>
+  <defs>
+    <style>.bg{fill:#fff}.text{fill:#0f172a;font-family:Inter,Segoe UI,Arial,sans-serif}.muted{fill:#64748b}.phone{fill:#020617}.screen{fill:#f8fafc}.card{fill:#fff;stroke:#cbd5e1}.btn{fill:#2563eb}.ok{fill:#dcfce7}.warn{fill:#fef3c7}@media(prefers-color-scheme:dark){.bg{fill:#0b1220}.text{fill:#e5e7eb}.muted{fill:#94a3b8}.screen{fill:#111827}.card{fill:#1f2937;stroke:#334155}}</style>
+  </defs>
+  <rect class="bg" width="900" height="620" rx="24"/>
+  <text class="text" x="46" y="56" font-size="28" font-weight="900">Android / PDA Field Workflow</text>
+  <text class="muted" x="46" y="86" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">Mockup with fictitious values. No production data is shown.</text>
+  <g transform="translate(70 125)">
+    <rect class="phone" x="0" y="0" width="210" height="390" rx="34"/>
+    <rect class="screen" x="16" y="28" width="178" height="330" rx="18"/>
+    <text class="text" x="42" y="78" font-size="18" font-weight="900">P1 Registro</text>
+    <rect class="card" x="32" y="112" width="146" height="86" rx="14"/>
+    <text class="muted" x="48" y="142" font-size="13">Race code</text>
+    <text class="text" x="48" y="170" font-size="18" font-weight="800">DEMO-01</text>
+    <rect class="btn" x="32" y="222" width="146" height="42" rx="14"/>
+    <text x="80" y="249" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="800">Search</text>
+  </g>
+  <g transform="translate(345 125)">
+    <rect class="phone" x="0" y="0" width="210" height="390" rx="34"/>
+    <rect class="screen" x="16" y="28" width="178" height="330" rx="18"/>
+    <text class="text" x="50" y="72" font-size="17" font-weight="900">Checkpoint</text>
+    <rect class="card" x="32" y="105" width="146" height="48" rx="14"/><text class="text" x="74" y="136" font-size="15" font-weight="800">START</text>
+    <rect class="card" x="32" y="168" width="146" height="48" rx="14"/><text class="text" x="72" y="199" font-size="15" font-weight="800">FINISH</text>
+    <rect class="ok" x="32" y="250" width="146" height="44" rx="14"/><text x="57" y="278" fill="#166534" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="800">Pending: 12</text>
+  </g>
+  <g transform="translate(620 125)">
+    <rect class="phone" x="0" y="0" width="210" height="390" rx="34"/>
+    <rect class="screen" x="16" y="28" width="178" height="330" rx="18"/>
+    <text class="text" x="46" y="70" font-size="17" font-weight="900">Register Time</text>
+    <rect class="card" x="32" y="96" width="146" height="52" rx="14"/><text class="muted" x="48" y="118" font-size="12">Race no.</text><text class="text" x="48" y="140" font-size="17" font-weight="900">23</text>
+    <rect class="card" x="32" y="165" width="146" height="52" rx="14"/><text class="muted" x="48" y="187" font-size="12">Time</text><text class="text" x="48" y="209" font-size="17" font-weight="900">10:24:31.842</text>
+    <rect class="btn" x="32" y="238" width="146" height="42" rx="14"/><text x="70" y="265" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="800">Send</text>
+    <rect class="warn" x="32" y="296" width="146" height="32" rx="12"/><text x="48" y="317" fill="#92400e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="800">Local copy saved</text>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">MedulaSport Timing Platform hero</title>
+  <desc id="desc">Abstract motorsport timing dashboard illustration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.52" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0b3b44"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <path d="M0 330 C220 250 360 390 580 300 C760 226 912 238 1200 168 L1200 420 L0 420 Z" fill="#0ea5e9" opacity="0.14"/>
+  <path d="M0 370 C260 280 370 420 620 320 C820 240 980 270 1200 210" fill="none" stroke="url(#accent)" stroke-width="4" opacity="0.85"/>
+  <g filter="url(#shadow)">
+    <rect x="690" y="72" width="380" height="250" rx="22" fill="#f8fafc"/>
+    <rect x="720" y="104" width="320" height="18" rx="9" fill="#0f172a" opacity="0.88"/>
+    <rect x="720" y="144" width="88" height="42" rx="12" fill="#dcfce7"/>
+    <rect x="828" y="144" width="88" height="42" rx="12" fill="#e0f2fe"/>
+    <rect x="936" y="144" width="88" height="42" rx="12" fill="#fef3c7"/>
+    <rect x="720" y="212" width="320" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="720" y="240" width="250" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="720" y="268" width="300" height="12" rx="6" fill="#cbd5e1"/>
+  </g>
+  <g transform="translate(120 82)">
+    <rect x="0" y="0" width="78" height="128" rx="18" fill="#020617" stroke="#475569"/>
+    <rect x="12" y="18" width="54" height="76" rx="8" fill="#111827"/>
+    <circle cx="39" cy="108" r="6" fill="#94a3b8"/>
+    <path d="M39 18 L58 58 L38 58 L50 94 L20 48 L42 48 Z" fill="url(#accent)" opacity="0.9"/>
+  </g>
+  <text x="240" y="132" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="46" font-weight="800">MedulaSport Timing Platform</text>
+  <text x="242" y="178" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">Race timing, field operations and results publishing</text>
+  <g transform="translate(242 218)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
+    <rect x="0" y="0" width="128" height="34" rx="17" fill="#ffffff" opacity="0.1"/>
+    <text x="18" y="23" fill="#e2e8f0">Public Web</text>
+    <rect x="142" y="0" width="156" height="34" rx="17" fill="#ffffff" opacity="0.1"/>
+    <text x="160" y="23" fill="#e2e8f0">Race Control</text>
+    <rect x="312" y="0" width="110" height="34" rx="17" fill="#ffffff" opacity="0.1"/>
+    <text x="334" y="23" fill="#e2e8f0">API</text>
+    <rect x="436" y="0" width="150" height="34" rx="17" fill="#ffffff" opacity="0.1"/>
+    <text x="456" y="23" fill="#e2e8f0">Android/PDA</text>
+  </g>
+</svg>
